@@ -1,0 +1,102 @@
+.schedule-form{
+    max-width: 50rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+}
+.schedule-btn{
+    display: block;
+    margin-left: auto;
+    margin-right: 0 !important;
+}
+
+td div{
+    max-width: 15rem;
+    max-height: 8rem;
+    overflow: auto;
+}
+/*  */
+
+  /* For Firefox */
+  td div {
+    scrollbar-width: thin; /* Set the width of the vertical scrollbar */
+    scrollbar-color: lightgray white; /* Set the color of the vertical scrollbar */
+  }
+
+  /* For WebKit browsers (Chrome, Safari) */
+  td div::-webkit-scrollbar {
+    width: 6px; /* Set the width of the vertical scrollbar */
+
+  }
+
+  td div::-webkit-scrollbar-track {
+    background-color: white; /* Set the background color of the scrollbar track */
+
+
+  }
+
+  td div::-webkit-scrollbar-thumb {
+    background-color: lightgray; /* Set the color of the scrollbar thumb */
+    border-radius: 10px;
+
+  }
+
+  /* For horizontal scrollbar */
+  td div {
+    scrollbar-width: auto; /* Set the width of the horizontal scrollbar */
+    scrollbar-color: white lightgray; /* Set the color of the horizontal scrollbar */
+  }
+
+  td div::-webkit-scrollbar {
+    height: 6px; /* Set the height of the horizontal scrollbar */
+  }
+
+  td div::-webkit-scrollbar-track {
+    background-color: white; /* Set the background color of the scrollbar track */
+  }
+
+  td div::-webkit-scrollbar-thumb {
+    background-color: lightgray; /* Set the color of the scrollbar thumb */
+    border-radius: 10px;
+
+  }
+
+  .options{
+    display: flex;
+    align-items: center;
+    gap: 10%;
+  }
+  .alllanguages{
+    max-height: 15rem;
+    overflow: auto;
+  }
+  .pointer{
+    cursor: pointer;
+  }
+  .loadmore{
+    border-radius: 50px;
+    background-color: rgb(51,135,51);
+    color: white;
+    margin: auto;
+    max-width: 11rem;
+    display: block;
+  }
+  pre{
+    width: 55vw;
+  }
+  .navbar-dark .navbar-nav .nav-link{
+    color: rgba(255,255,255,0.99) !important;
+  }
+  .arrow{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    transform: rotate(180deg);
+  }
+  .collapsed{
+    transform: rotate(0deg);
+  }
+  

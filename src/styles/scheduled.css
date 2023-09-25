@@ -1,0 +1,4 @@
+.modal.show .modal-dialog{
+    max-width: 80vw !important;
+    width: 80vw;
+}
